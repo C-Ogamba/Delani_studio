@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boiler Plate</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-6">
+          <div class="text-center">
+            <button id="signupBtn" class="btn btn-info w-50 mb-5">
+              Sign Up
+            </button>
+          </div>
+          <form class="signup-form text-info">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter email address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="signupPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="password"
+                placeholder="Enter password"
+                id="signupPassword"
+              />
+            </div>
+            <button class="btn btn-outline-success">Sign Up</button>
+          </form>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+          <div class="text-center mb-5">
+            <button id="loginBtn" class="btn btn-info w-50">Login</button>
+          </div>
+          <form class="login-form text-success">
+            <div class="form-group">
+              <label for="firstName">Email Address</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                class="form-control"
+                placeholder="Enter first name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="loginPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                name="password"
+                placeholder="Enter password"
+                id="loginPassword"
+              />
+            </div>
+            <button class="btn btn-outline-success">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="russia" class="col-sm-6 col-lg-6 p-5">
+          <h2 class="russia text-center">Russia</h2>
+        </div>
+        <div id="ukraine" class="col-sm-6 col-lg-6 p-5">
+          <h2 class="text-center">Ukraine</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/js/jQuery-3.6.0.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
