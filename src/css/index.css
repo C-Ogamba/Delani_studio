@@ -30,14 +30,16 @@
   background-size: cover;
   position: relative;
 }
-.service1 {
-  text-align: center;
+p{
+    font-size: 13px;
+}
+/* .service1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
+
+} */
 .contact-us {
   background-image: url(/src/images/c_image.jpg);
   height: 80vh;
