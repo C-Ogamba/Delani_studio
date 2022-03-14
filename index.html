@@ -21,7 +21,7 @@
           <img src="./src/images/logo.png" alt="" />
           <h1>WELCOME TO DELANI STUDIO</h1>
           <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-          <img src="/src/images/mouse_click.png" alt="" />
+          <img src="/src/images/mouse_click.png" alt="" class="mouse"/>
         </div>
       </div>
       <div class="container text-center p-4">
@@ -208,11 +208,13 @@
             <input type="email" name="email" placeholder="Email..." required class="input mx-2 nameEmail" id="email"/><br/>
             <textarea name="message" placeholder="Put your message here..." id="mess" rows="4" cols="40" required class="input"></textarea>
 
-            <input type="submit" name="submit" value="SUBMIT" class="input" id="btn" >
+            <input type="submit" name="submit" value="SUBMIT" class="input" id="btn" onclick="alertMessage()">
+
             <div class="popup" onclick="alertMessage()"> 
               <div class="backPop"></div>
               <div class="popupBox" id="pop"></div>
             </div>
+
           </form>
         </div>
         </div>

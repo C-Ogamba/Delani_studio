@@ -48,6 +48,9 @@ p {
   background-size: cover;
   position: relative;
 }
+.mouse{
+    margin-top: 150px;
+}
 .design1 {
   display: none;
 }
@@ -146,9 +149,9 @@ color: black;
 .popup .popupBox {
   visibility: hidden;
   width: 60vw;
-  height: 6vh;
+  height: 7vh;
   background-color: lightgray;
-  color: #fff;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 8px 10px;
