@@ -57,3 +57,23 @@ p{
 .pro2{
     display: none;
 }
+.port{
+    position: relative;
+}
+.cont{
+    position: absolute;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+.cont:hover .overlay{
+    opacity: .7;
+}
