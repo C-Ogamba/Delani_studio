@@ -4,7 +4,7 @@ $(document).ready(function () {
         $(".design1").toggle();
         $("#design2").fadeToggle(400, "linear");
         $("h6").css("font-weight", "bold")
-    })
+    });
      $("#dev").click(function () {
        $(".dev2").toggle();
        $("#dev1").fadeToggle(400, "linear");
@@ -13,6 +13,14 @@ $(document).ready(function () {
        $(".pro2").toggle();
        $("#pro1").fadeToggle(400, "linear");
      });
+
+
+     $(".cont").hover(function (){
+         $(".overlay").show();
+     }, function(){
+         $(".overlay").hide();        
+     
+     })
 
 
 })
