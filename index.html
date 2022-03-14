@@ -204,11 +204,15 @@
           <h5>CONTACT US</h5>
         <div class="form">
           <form action="">
-            <input type="text" name="name" placeholder="Name..." required class="input mx-2 nameEmail"/>
-            <input type="email" name="email" placeholder="Email..." required class="input mx-2 nameEmail"/><br/>
+            <input type="text" name="name" placeholder="Name..." required class="input mx-2 nameEmail" id="name"/>
+            <input type="email" name="email" placeholder="Email..." required class="input mx-2 nameEmail" id="email"/><br/>
             <textarea name="message" placeholder="Put your message here..." id="mess" rows="4" cols="40" required class="input"></textarea>
 
             <input type="submit" name="submit" value="SUBMIT" class="input" id="btn" >
+            <div class="popup" onclick="alertMessage()"> 
+              <div class="backPop"></div>
+              <div class="popupBox" id="pop"></div>
+            </div>
           </form>
         </div>
         </div>
