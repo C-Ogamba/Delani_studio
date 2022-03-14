@@ -200,13 +200,17 @@
               </div>        
         </div>
       <div class="container-fluid contact-us text-center">
-        <h5>CONTACT US</h5>
+        <div class="contact-form">
+          <h5>CONTACT US</h5>
         <div class="form">
           <form action="">
-            <input type="text" value="Name..." />
-            <input type="email" value="Email..." /><br />
-            <input type="text" value="Put your message here..." />
+            <input type="text" name="name" placeholder="Name..." required class="input mx-2 nameEmail"/>
+            <input type="email" name="email" placeholder="Email..." required class="input mx-2 nameEmail"/><br/>
+            <textarea name="message" placeholder="Put your message here..." id="mess" rows="4" cols="40" required class="input"></textarea>
+
+            <input type="submit" name="submit" value="SUBMIT" class="input" id="btn" >
           </form>
+        </div>
         </div>
       </div>
       <div class="footer text-center pt-4">

@@ -1,10 +1,6 @@
 "use strict";
 $(document).ready(function () {
-    $("#design").click(function (){
-        $(".design1").toggle();
-        $("#design2").fadeToggle(400, "linear");
-        $("h6").css("font-weight", "bold")
-    });
+   designForm();
      $("#dev").click(function () {
        $(".dev2").toggle();
        $("#dev1").fadeToggle(400, "linear");
@@ -24,3 +20,11 @@ $(document).ready(function () {
 
 
 })
+const designForm = () => {
+     $("#design").click(function () {
+       $(".design1").toggle();
+       $("#design2").fadeToggle(400, "linear");
+       $("h6").css("font-weight", "bold");
+     });
+
+}
