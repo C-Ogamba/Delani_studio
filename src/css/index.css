@@ -23,7 +23,7 @@
   font-size: 50px;
 }
 .services {
-  background: url(/src/images/s_image.jpg);
+  background: url(../images/s_image.jpg);
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@ p {
 
 } */
 .contact-us {
-  background-image: url(/src/images/c_image.jpg);
+  background-image: url(../images/c_image.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
